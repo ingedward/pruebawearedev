@@ -16,7 +16,7 @@ class UserSeeder extends Seeder
         DB::table('users')->insert([
             'name' => 'Edward Rodriguez',
             'email' => 'ing.erodriguez@outlook.com',
-            'password' => '12345678',
+            'password' => '$2y$12$isQeFjYGOz1fFdoWAkY.yOTl.jQq5QEeIw74jHm7tbWmGBa4F/mpC',
             'role_id' => '1',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
@@ -24,7 +24,7 @@ class UserSeeder extends Seeder
         DB::table('users')->insert([
             'name' => 'Juan Duarte',
             'email' => 'juan.duarte@gmail.com',
-            'password' => '12345678',
+            'password' => '$2y$12$isQeFjYGOz1fFdoWAkY.yOTl.jQq5QEeIw74jHm7tbWmGBa4F/mpC',
             'role_id' => '2',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
